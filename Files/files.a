@@ -1,0 +1,13 @@
+echo "# repo.1.ghost" >> README.md
+
+git init
+
+git add README.md
+
+git commit -m "Initial commit of all files to the repository"
+
+git branch -M main
+
+git remote add origin git@github.com:ghosti007/repo.1.ghost.git
+
+git push -u origin main
